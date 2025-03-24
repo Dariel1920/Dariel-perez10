@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>techhubxxx</title>
+</head>
+<body>
+    <h1 style="text-align: center;">TECHHUBXXX</h1>
+
+    <label for="articulo">Ingrese el articulo</label>
+    <input type="text" id="articulo"><br><br>
+    
+    <label for="codigo">Ingrese código</label>  
+    <input type="number" id="codigo" placeholder="Ingrese código"><br><br>
+    
+    <label for="precio">Ingrese precio</label>
+    <input type="number" id="precio"><br><br>
+      
+    <label for="Marca">Ingrese Marca</label>
+    <input type="text" id="Marca"><br><br>
+      
+    <label for="modelo">Ingrese Modelo</label>
+    <input type="text" id="modelo"><br><br>
+      
+    <label for="categoria">Ingrese categoria</label>
+    <input type="text" id="categoria"><br><br>
+
+    <button onclick="enviarArticulo()">Enviar Articulo</button>
+    <button onclick="editarArticulo()">Actualizar Articulo</button>
+    <button onclick="eliminarArticulo()">Eliminar Articulo</button>
+    <button onclick="buscarArticulo()">Buscar Articulo</button>
+    <br><br>
+
+    <table border="1px" width="100%" id="Tienda" style="background-color: rgb(16, 13, 173);">
+        <thead>
+            <tr>
+                <th width="17%">Producto</th>
+                <th width="17%">Código</th>
+                <th width="17%">Precio</th>
+                <th width="17%">Marca</th>
+                <th width="17%">Modelo</th>
+                <th width="17%">categoria</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+<script src="app.js"></script>
+</body>
+</html>
